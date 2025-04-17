@@ -1,11 +1,22 @@
-# 🎓 Spring Boot Student Management App
+# 🎓 Spring Boot Student Management API
 
-A simple Spring Boot-based RESTful application to manage student data. Built using Java, Spring Boot, and Maven.
+A simple RESTful API built using Spring Boot and Spring Data JPA to manage student records — including name, course fee, and semester. This project supports basic CRUD operations.
 
 ## 🚀 Features
 
-- Create, Read, Update, Delete (CRUD) operations on Student entities
-- RESTful API endpoints
-- Uses Spring Data JPA for database interaction
-- Ready for integration with frontend or database
+- ➕ Add new student
+- 📋 Fetch all students
+- 📝 Update student by ID
+- ❌ Delete student by ID
+
+## 🛠️ Tech Stack
+
+- Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Maven
+- H2 / MySQL (configurable)
+
+## 📁 Project Structure
 
